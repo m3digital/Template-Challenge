@@ -9,7 +9,7 @@
     margin-top: 25px
 }
 .hidden {
-    background-color: lightgray;
+    background-color: #F2D399;
     max-width: 230px;
     padding:0px 10px;
     margin: 25px 10px 0px;
@@ -17,4 +17,7 @@
 }
 .btn-danger {
     margin-top: 10px
+}
+.modal-dialog {
+    min-width: 70%
 }

@@ -57,7 +57,7 @@ document.getElementById('remove2').addEventListener('click', function () {
 });
 document.getElementById('remove3').addEventListener('click', function () {
     event.preventDefault();
-    // console.log("You tried to remove this div!");
+    console.log("You tried to remove this div!");
     div3.style.display = "none";
     checkIf()
 });

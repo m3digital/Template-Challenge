@@ -45,19 +45,22 @@ function checkIf() {
 //   Remove button functionality
 document.getElementById('remove1').addEventListener('click', function () {
     event.preventDefault();
-    // console.log("You tried to remove this div!");
+    console.log("You removed checkbox 1!");
     div1.style.display = "none";
+    // Run our conditional for showing 'No Templates Selected' div
     checkIf()
 });
 document.getElementById('remove2').addEventListener('click', function () {
     event.preventDefault();
-    // console.log("You tried to remove this div!");
+    console.log("You removed checkbox 2!");
     div2.style.display = "none";
+    // Run our conditional for showing 'No Templates Selected' div
     checkIf()
 });
 document.getElementById('remove3').addEventListener('click', function () {
     event.preventDefault();
-    console.log("You tried to remove this div!");
+    console.log("You removed checkbox 3!");
     div3.style.display = "none";
+    // Run our conditional for showing 'No Templates Selected' div
     checkIf()
 });

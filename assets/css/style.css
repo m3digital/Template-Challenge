@@ -8,6 +8,14 @@
 .row {
     margin-top: 25px
 }
+
+#noTemplates {
+    background-color: #F2D399;
+    margin: 25px 10px 0px;
+    width:213px;
+    height:100px;
+    line-height:100px
+}
 .hidden {
     background-color: #F2D399;
     max-width: 230px;

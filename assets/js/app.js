@@ -33,16 +33,16 @@ document.getElementById('submit').addEventListener('click', function () {
 //   Remove button functionality
 document.getElementById('remove1').addEventListener('click', function () {
     event.preventDefault();
-    console.log("You tried to remove this div!");
+    // console.log("You tried to remove this div!");
     div1.style.display = "none";
   });
 document.getElementById('remove2').addEventListener('click', function () {
     event.preventDefault();
-    console.log("You tried to remove this div!");
+    // console.log("You tried to remove this div!");
     div2.style.display = "none";
   });
 document.getElementById('remove3').addEventListener('click', function () {
     event.preventDefault();
-    console.log("You tried to remove this div!");
+    // console.log("You tried to remove this div!");
     div3.style.display = "none";
   });

@@ -1,5 +1,5 @@
 .col-4 {
-    background-color: lightgray;
+    background-color:#e9ecef;
     max-width: 230px;
     padding:0px 10px;
     margin: 0px 10px;
@@ -21,3 +21,8 @@
 .modal-dialog {
     min-width: 70%
 }
+
+div.form-check.form-check-inline {
+    padding-top: 11px;
+    padding-left: 50px 
+  }

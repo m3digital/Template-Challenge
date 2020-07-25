@@ -1,0 +1,7 @@
+.col-4 {
+    background-color: lightgray;
+    max-width: 230px;
+    padding:0px 10px;
+    margin: 0px 10px;
+    min-height: 50px
+}

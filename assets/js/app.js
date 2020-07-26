@@ -7,16 +7,16 @@ var div2 = document.getElementById("hiddenDiv2")
 var div3 = document.getElementById("hiddenDiv3")
 var base = document.getElementById("noTemplates")
 
-
-// Click Handler Vanilla JS Method 2
+// Vanilla JS Submit Button Click Handler 
 document.getElementById('submit').addEventListener('click', function () {
-    event.preventDefault();
     console.log("You clicked without jQuery!");
     // Display Div 1 if Box 1 is Checked
     if (box1.checked == true) {
+        // If any of the divs are showing, hide noTemplates div
         div1.style.display = "block";
         base.style.display = "none";
     } else {
+        // Otherwise display remains 'none' (instead of 'hidden' !important)
         div1.style.display = "none";
     }
     // Display Div 2 if Box 2 is Checked
@@ -44,23 +44,20 @@ function checkIf() {
 
 //   Remove button functionality
 document.getElementById('remove1').addEventListener('click', function () {
-    event.preventDefault();
+    // Initial Testing
     console.log("You removed checkbox 1!");
+    // Hide div once remove is clicked
     div1.style.display = "none";
     // Run our conditional for showing 'No Templates Selected' div
     checkIf()
 });
 document.getElementById('remove2').addEventListener('click', function () {
-    event.preventDefault();
     console.log("You removed checkbox 2!");
     div2.style.display = "none";
-    // Run our conditional for showing 'No Templates Selected' div
     checkIf()
 });
 document.getElementById('remove3').addEventListener('click', function () {
-    event.preventDefault();
     console.log("You removed checkbox 3!");
     div3.style.display = "none";
-    // Run our conditional for showing 'No Templates Selected' div
     checkIf()
 });
